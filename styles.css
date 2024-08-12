@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    margin: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #e7aa70; /* Optional: Background color */
+    font-family: Arial, sans-serif;
+}
+
+.list {
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+.list li:hover{
+    color: rgb(103, 103, 247);
+}
+
+.square {
+    width: 1000px; /* Set the width of the square */
+    height: 500px; /* Set the height of the square */
+    display: flex;
+    align-items: center; /* Center items vertically */
+    border: 5px solid #000; /* Border around the square */
+    background-color: #e7aa70; /* Optional: Background color */
+    padding: 20px; /* Padding inside the square */
+    box-sizing: border-box; /* Include padding in the size of the square */
+}
+
+.square img {
+    max-width: 450px; /* Max width for the image */
+    max-height: 100%; /* Max height for the image */
+    object-fit: cover; /* Ensures the image covers its container */
+    margin-right: 20px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Stack h1 and pre vertically */
+    justify-content: space-between; /* Distribute space evenly */
+    height: 100%; /* Make the container the same height as the square */
+    width: 100%; /* Make the container fill the remaining space */
+}
+
+.text-container h1 {
+    font-size: 50px; /* Adjust font size */
+    margin: 0;
+    margin-left: 5%;
+}
+
+.text-container pre {
+    font-size: 18px; /* Adjust font size */
+    font-family: monospace;
+    white-space: pre-wrap; /* Ensure text wraps nicely */
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.social-links {
+    display: flex;
+    margin-top: auto; /* Push the social icons to the bottom */
+}
+
+.social-links a {
+    font-size: 40px;
+    color: rgb(255, 254, 254);
+    margin-right: 20px;
+    text-decoration: none;
+}
+.fb:hover{
+    color:blue
+}
+
+.insta:hover{
+    color: rgb(255, 136, 0);
+}
+
+.tiktok:hover{
+    color: black;
+}
