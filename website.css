@@ -193,19 +193,19 @@ footer{
 
 .contactLinks {
     display: flex;
-    align-items: flex-start; /* Align items at the top */
-    gap: 20px; /* Space between logo and icon links */
+    align-items: flex-start;
+    gap: 20px;
     margin: 20px 200px;
     margin-bottom: 40px;
 }
 
 .logo-link img {
-    width: 100px; /* Adjust the logo size as needed */
+    width: 100px;
 }
 
 .icon-links {
     display: flex;
-    flex-direction: column; /* Stack icons and text vertically */
+    flex-direction: column; 
     gap: 10px;
 }
 .fb:hover {
@@ -214,18 +214,18 @@ footer{
 
 .icon-links .icon-text {
     display: flex;
-    align-items: center; /* Align icons and text in the center */
-    gap: 10px; /* Space between the icon and the text */
+    align-items: center; 
+    gap: 10px; 
 }
 
 .icon-links ion-icon {
-    font-size: 24px; /* Adjust the size of icons */
-    color: #000; /* Set the color of the icons */
+    font-size: 24px; 
+    color: #000; 
 }
 
 h4 {
     margin: 0;
-    font-size: 16px; /* Adjust font size as needed */
+    font-size: 16px; 
 }
 
 .footerBottom {
