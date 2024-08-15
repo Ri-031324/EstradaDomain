@@ -1,11 +1,10 @@
-/* styles.css */
 body {
     margin: 0;
-    height: 100vh; /* Full height of the viewport */
+    height: 100vh; 
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    background-color: #e7aa70; /* Optional: Background color */
+    justify-content: center; 
+    align-items: center; 
+    background-color: #e7aa70; 
     font-family: Arial, sans-serif;
 }
 
@@ -31,20 +30,20 @@ body {
 }
 
 .square {
-    width: 1000px; /* Set the width of the square */
-    height: 500px; /* Set the height of the square */
+    width: 1000px;
+    height: 500px;
     display: flex;
-    align-items: center; /* Center items vertically */
-    border: 5px solid #000; /* Border around the square */
-    background-color: #e7aa70; /* Optional: Background color */
-    padding: 20px; /* Padding inside the square */
-    box-sizing: border-box; /* Include padding in the size of the square */
+    align-items: center; 
+    border: 5px solid #000; 
+    background-color: #e7aa70; 
+    padding: 20px; 
+    box-sizing: border-box;
 }
 
 .square img {
-    max-width: 450px; /* Max width for the image */
-    max-height: 100%; /* Max height for the image */
-    object-fit: cover; /* Ensures the image covers its container */
+    max-width: 450px;
+    max-height: 100%;
+    object-fit: cover; 
     margin-right: 20px;
     padding-right: 10px;
     border-radius: 8px;
@@ -52,29 +51,29 @@ body {
 
 .text-container {
     display: flex;
-    flex-direction: column; /* Stack h1 and pre vertically */
-    justify-content: space-between; /* Distribute space evenly */
-    height: 100%; /* Make the container the same height as the square */
-    width: 100%; /* Make the container fill the remaining space */
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%; 
+    width: 100%; 
 }
 
 .text-container h1 {
-    font-size: 50px; /* Adjust font size */
+    font-size: 50px; 
     margin: 0;
     margin-left: 5%;
 }
 
 .text-container pre {
-    font-size: 18px; /* Adjust font size */
+    font-size: 18px;
     font-family: monospace;
-    white-space: pre-wrap; /* Ensure text wraps nicely */
+    white-space: pre-wrap;
     margin-top: 10px;
     text-align: justify;
 }
 
 .social-links {
     display: flex;
-    margin-top: auto; /* Push the social icons to the bottom */
+    margin-top: auto;
 }
 
 .social-links a {
